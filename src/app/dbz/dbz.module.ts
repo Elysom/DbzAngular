@@ -8,8 +8,9 @@ import { AddCharacterComponent } from './components/add-character/add-character.
 
 
 
-
+// Decorador que define un módulo de Angular
 @NgModule({
+  // Declaracion de los componentes de el modulo
   declarations: [
     MainPageComponent,
     ListComponent,
@@ -24,3 +25,4 @@ import { AddCharacterComponent } from './components/add-character/add-character.
   ]
 })
 export class DbzModule { }
+
